@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Quiz</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Welcome to AI Quiz</h1>
+    <div class="highest-score">
+        Highest Score: {{ highest_score }}%
+    </div>
+    <a href="{{ url_for('quiz') }}">Start Quiz</a>
+    <footer style="text-align: center; position: absolute; bottom: 0; width: 100%; padding: 10px;">Developer: Beyza Akgün</footer>
+</body>
+</html>
